@@ -2,7 +2,7 @@ import './App.css';
 import axios from 'axios';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Card from './components/Card';
+import Cards from './components/Card';
 
 function App() {
 
@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card />
+      <Cards />
       <Footer />
     </div>
   );

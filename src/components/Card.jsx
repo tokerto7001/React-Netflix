@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Card() {
+function Cards() {
     return (
-        <div>
-            Card
+        <div className='cards'>
+            Cards
         </div>
     )
 }
 
-export default Card
+export default Cards
