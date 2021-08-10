@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Cards() {
+function Card({ results }) {
     return (
-        <div className='cards'>
-            Cards
+        <div className='card-div'>
+            <img src={results.posterURLs[780]} alt="film-photos" className="film-photos" />
         </div>
     )
 }
 
-export default Cards
+export default Card
